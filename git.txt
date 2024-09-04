@@ -33,7 +33,7 @@ git branch -m <branch>
 
 Push a local branch to your remote repository branch
 git push origin [branch name]
-git push --set-upstream origin one	
+git push --set-upstream origin [branch name]	
 
 List all branches local and remote. 
 git branch -a
