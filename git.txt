@@ -59,8 +59,9 @@ git merge <branch to be merged>
 
 
 to push a locale repo to remote repo
-git remote add new-remote-repo https://github.com/tobiayinmiro23/git-test.git
-git push new-remote-repo <branch name>
+git remote add origin <repository url>
+git branch -M <branch name>
+git push origin <branch name>
 
 to connect to the remote server
 git remote add origin https://github.com/tobiayinmiro23/git-test.git
